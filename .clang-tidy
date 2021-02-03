@@ -1,0 +1,13 @@
+---
+# https://clang.llvm.org/extra/clang-tidy/checks/list.html
+Checks: >
+  -*,
+  bugprone-*,
+  clang-analyzer-*,
+  readability-*,
+  modernize-*,
+  -modernize-use-trailing-return-type,
+  performance-*,
+  misc-*
+WarningsAsErrors: '*'
+AnalyzeTemporaryDtors: false
